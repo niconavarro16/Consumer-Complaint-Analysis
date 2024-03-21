@@ -20,12 +20,17 @@ For this analysis, bing and nrc lexicons were specifically used to classify word
 ### Sentiment counts from consumer complaints
 I used a bar chart to show the count of positive and negative sentiments from the Bing lexicon. This chart helps to understand the overall sentiment distribution of the narratives.
 
-<img src="ConsumerCompalintsFolder/sentimentCountsGrapgh.png" height = 250, width = 400>
+<img src="ConsumerCompalintsFolder/sentimentCountsGraph.png" height = 300, width = 450>
 
 ### Wordclouds for Positive and Negative Sentiments
 I used the wordclouds because they serve as an analytic tool to visualize predominant data in word form and in a scale from largest to smallest.
 By doing two wordclouds for positive and negative sentiments, I highlight the most prominent words associated with each sentiment.
-GRAPH 2 and 3
+
+### positive wordcloud
+<img src="ConsumerCompalintsFolder/positiveWordCloud.png" height = 250, width = 400>
+
+### negative wordcloud
+<img src="ConsumerCompalintsFolder/negativeWordCloud.png" height = 250, width = 400>
 
 ## Conclusion
 This analysis provides insights into the sentiment of consumer feedback which can be important for identifying areas that may need attention from the companies involved.
