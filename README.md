@@ -1,12 +1,18 @@
 # Consumer-Complaint-Analysis
 In this project I used a sentiment analysis on consumer complaints.
 
-## Data Tidying
+## Data Tidying 🧹
 The first step to do was to get the data tidy so it was easier to analyze, and these were the steps:
 
 - Tokens: splitting the teext into individual words
 
 - Line Numbers: assigning a unique line number to each complaint narrative to keep track of the text's location
+```
+#This will transform the text data into a tidy format where each word is in its own row.
+tidy_complaints <- Complaints %>%
+  mutate(linenumber = row_number()) %>%  #Assuming each row is a separate line/narrative
+  unnest_tokens(word, Consumer.complaint.narrative)  #Unnest tokens on the narrative
+```
 
 
 ## Sentiment Analysis
