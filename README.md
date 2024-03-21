@@ -27,7 +27,7 @@ I used the wordclouds because they serve as an analytic tool to visualize predom
 By doing two wordclouds for positive and negative sentiments, I highlight the most prominent words associated with each sentiment.
 
 ### positive wordcloud
-
+<img src="ConsumerCompalintsFolder/positiveWordCloud.png" height = 250, width = 400>
 
 ### negative wordcloud
 <img src="ConsumerCompalintsFolder/negativeWordCloud.png" height = 250, width = 400>
